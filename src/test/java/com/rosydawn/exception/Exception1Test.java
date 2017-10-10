@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 /**
- * Created by vincent on 10/5 0005.
+ * Created by vincent on 10/5 2017.
  */
 public class Exception1Test {
     @Test(expected = ArithmeticException.class)
