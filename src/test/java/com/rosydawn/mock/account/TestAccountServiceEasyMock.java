@@ -27,9 +27,6 @@ import static org.easymock.EasyMock.replay;
 import static org.easymock.EasyMock.expect;
 import static org.easymock.EasyMock.verify;
 
-import com.rosydawn.mock.Account;
-import com.rosydawn.mock.AccountManager;
-import com.rosydawn.mock.AccountService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

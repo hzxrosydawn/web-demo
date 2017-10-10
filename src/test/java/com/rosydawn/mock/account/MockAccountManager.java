@@ -1,8 +1,5 @@
 package com.rosydawn.mock.account;
 
-import com.rosydawn.mock.Account;
-import com.rosydawn.mock.AccountManager;
-
 import java.util.Map;
 import java.util.HashMap;
 

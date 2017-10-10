@@ -20,28 +20,20 @@
  */
 package com.rosydawn.mock.web;
 
-import static org.junit.Assert.assertEquals;
-
-import java.io.ByteArrayInputStream;
-
-import org.junit.Test;
+import java.io.InputStream;
 
 /**
- * Another test-case for the WebClient class.
+ * A connection factory interface. Different connection
+ * factories that we have, must implement this interface.
  *
- * @version $Id: TestWebClient1.java 505 2009-08-16 17:58:38Z paranoid12 $
+ * @version $Id: ConnectionFactory.java 503 2009-08-16 17:47:12Z paranoid12 $
  */
-public class TestWebClient1 {
-    @Test
-    public void testGetContentOk() throws Exception {
-        MockConnectionFactory mockConnectionFactory = new MockConnectionFactory();
-
-        mockConnectionFactory.setData(new ByteArrayInputStream("It works".getBytes()));
-
-        WebClient2 client = new WebClient2();
-
-        String result = client.getContent(mockConnectionFactory);
-
-        assertEquals("It works", result);
-    }
+public interface ConnectionFactory {
+    /**
+     * Read the data from the connection.
+     *
+     * @return
+     * @throws Exception
+     */
+    InputStream getData() throws Exception;
 }

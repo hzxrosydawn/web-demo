@@ -22,9 +22,6 @@ package com.rosydawn.mock.account;
 
 import static org.junit.Assert.assertEquals;
 
-import com.rosydawn.mock.Account;
-import com.rosydawn.mock.AccountManager;
-import com.rosydawn.mock.AccountService;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;

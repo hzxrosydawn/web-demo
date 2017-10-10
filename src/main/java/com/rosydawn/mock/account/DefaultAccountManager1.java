@@ -1,4 +1,4 @@
-package com.rosydawn.mock;
+package com.rosydawn.mock.account;
 
 import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;

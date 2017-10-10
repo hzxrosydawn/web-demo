@@ -27,8 +27,7 @@ import org.apache.commons.logging.Log;
  *
  * @version $Id: MockLog.java 505 2009-08-16 17:58:38Z paranoid12 $
  */
-public class MockLog
-        implements Log {
+public class MockLog implements Log {
     public void debug(Object arg0, Throwable arg1) {
     }
 

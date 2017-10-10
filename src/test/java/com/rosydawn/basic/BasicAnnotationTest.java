@@ -1,4 +1,4 @@
-package com.rosydawn;
+package com.rosydawn.basic;
 
 import org.junit.*;
 

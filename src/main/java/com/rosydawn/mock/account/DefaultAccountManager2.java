@@ -1,4 +1,4 @@
-package com.rosydawn.mock;
+package com.rosydawn.mock.account;
 
 import com.rosydawn.mock.configurations.Configuration;
 import com.rosydawn.mock.configurations.DefaultConfiguration;

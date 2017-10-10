@@ -37,8 +37,7 @@ import org.junit.Test;
  */
 public class TestWebClientMock {
     @Test
-    public void testGetContentOk()
-            throws Exception {
+    public void testGetContentOk() throws Exception {
         MockHttpURLConnection mockConnection = new MockHttpURLConnection();
         mockConnection.setExpectedInputStream(new ByteArrayInputStream("It works".getBytes()));
 
@@ -54,8 +53,7 @@ public class TestWebClientMock {
      * An inner, private class that extends WebClient and allows us
      * to override the createHttpURLConnection method.
      */
-    private class TestableWebClient
-            extends WebClient1 {
+    private class TestableWebClient extends WebClient1 {
         /**
          * The connection.
          */
@@ -73,8 +71,7 @@ public class TestWebClientMock {
         /**
          * A method that we overwrite to create the URL connection.
          */
-        public HttpURLConnection createHttpURLConnection(URL url)
-                throws IOException {
+        public HttpURLConnection createHttpURLConnection(URL url) throws IOException {
             return this.connection;
         }
     }

@@ -48,8 +48,7 @@ public class TestWebClientJMock {
     };
 
     @Test
-    public void testGetContentOk()
-            throws Exception {
+    public void testGetContentOk() throws Exception {
         final ConnectionFactory factory = context.mock(ConnectionFactory.class);
         final InputStream mockStream = context.mock(InputStream.class);
 
@@ -79,8 +78,7 @@ public class TestWebClientJMock {
     }
 
     @Test
-    public void testGetContentCannotCloseInputStream()
-            throws Exception {
+    public void testGetContentCannotCloseInputStream() throws Exception {
 
         final ConnectionFactory factory = context.mock(ConnectionFactory.class);
         final InputStream mockStream = context.mock(InputStream.class);
