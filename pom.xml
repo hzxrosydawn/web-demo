@@ -32,13 +32,10 @@
         <dependency>
             <groupId>org.easymock</groupId>
             <artifactId>easymock</artifactId>
-            <version>2.4</version>
+            <version>3.1</version>
+            <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.easymock</groupId>
-            <artifactId>easymockclassextension</artifactId>
-            <version>2.4</version>
-        </dependency>
+
         <dependency>
             <groupId>org.jmock</groupId>
             <artifactId>jmock-junit4</artifactId>
@@ -48,6 +45,11 @@
             <groupId>org.jmock</groupId>
             <artifactId>jmock-legacy</artifactId>
             <version>2.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>2.10.0</version>
         </dependency>
 
         <!-- 使用Quartz框架的定时任务功能。Quartz 2.x 版本需要 JDK 1.6+ 支持， Quartz 1.x 版本只有一个jar包，需要 JDK 1.4+ 支持 。
@@ -149,13 +151,11 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
         <dependency>
             <groupId>net.sourceforge.tess4j</groupId>
             <artifactId>tess4j</artifactId>
             <version>2.0.1</version>
         </dependency>
-
         <dependency>
             <groupId>org.ghost4j</groupId>
             <artifactId>ghost4j</artifactId>
